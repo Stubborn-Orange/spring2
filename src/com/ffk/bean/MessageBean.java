@@ -20,99 +20,66 @@ public class MessageBean {
 	private Properties someProps;
 	
 	
-	/** 
-	 * @return someList 
-	 */
 	public List<String> getSomeList() {
 		return someList;
 	}
-	/**
-	 * @param someList the someList to set
-	 */
+	
 	public void setSomeList(List<String> someList) {
 		this.someList = someList;
 	}
-	/** 
-	 * @return somesSet 
-	 */
+	
 	public Set<String> getSomesSet() {
 		return somesSet;
 	}
-	/**
-	 * @param somesSet the somesSet to set
-	 */
+
 	public void setSomesSet(Set<String> somesSet) {
 		this.somesSet = somesSet;
 	}
-	/** 
-	 * @return someMap 
-	 */
+	
 	public Map<String, Object> getSomeMap() {
 		return someMap;
 	}
-	/**
-	 * @param someMap the someMap to set
-	 */
+
 	public void setSomeMap(Map<String, Object> someMap) {
 		this.someMap = someMap;
 	}
-	/** 
-	 * @return someProps 
-	 */
+
 	public Properties getSomeProps() {
 		return someProps;
 	}
-	/**
-	 * @param someProps the someProps to set
-	 */
+	
 	public void setSomeProps(Properties someProps) {
 		this.someProps = someProps;
 	}
-	/** 
-	 * @return moduleName 
-	 */
+
 	public String getModuleName() {
 		return moduleName;
 	}
-	/**
-	 * @param moduleName the moduleName to set
-	 */
+
 	public void setModuleName(String moduleName) {
 		this.moduleName = moduleName;
 	}
-	/** 
-	 * @return pageSize 
-	 */
+	
 	public int getPageSize() {
 		return pageSize;
 	}
-	/**
-	 * @param pageSize the pageSize to set
-	 */
+
 	public void setPageSize(int pageSize) {
 		this.pageSize = pageSize;
 	}
-	/** 
-	 * @return username 
-	 */
+	
 	public String getUsername() {
 		return username;
 	}
-	/**
-	 * @param username the username to set
-	 */
+
 	public void setUsername(String username) {
 		this.username = username;
 	}
-	/** 
-	 * @return password 
-	 */
+	
 	public String getPassword() {
 		return password;
 	}
-	/**
-	 * @param password the password to set
-	 */
+	
 	public void setPassword(String password) {
 		this.password = password;
 	}
